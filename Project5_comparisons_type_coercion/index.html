@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>“Project5_comparisons_type_coercion</title>
+        <script src="js/main.js"></script>
+	</head>
+	<body onload="">
+        <p id="d1"></p>
+        <p id="Dictionary"></p>
+
+        <button  onclick="checkType(012)" >typeof(012)</button>
+        <button  onclick="combinate(6, 'text')" >6 + 'text'</button>
+        <button  onclick="printNAN()" >display NAN</button>
+        <button  onclick="checkNAN('text')">isNAN('text')</button>
+        <button  onclick="checkNAN('005')">isNAN('005')</button>
+        <button  onclick="displayInfinite()">infinity</button>
+        <button  onclick="dispalyNegInfinite()">-infinity</button>
+        <button  onclick="displayTrue()">is 5 lower than 9</button>
+        <button  onclick="displayFalse()">is 5 greater than 9</button>
+        <button  onclick="consoleOp()">console operation</button>
+        <button  onclick="falseConsoleOp()">false in console</button>
+        <button  onclick="compareOp()">8==010?</button>
+        <button  onclick="equalsOp(8, '8')">8==='8'?</button>
+        <button  onclick="equalsOp(8, 010)">8===010?</button>
+        <button  onclick="equalsOp('8', 010)">'8'===010?</button>
+        <button  onclick="equalsOp('aaa', 'AAA')">'aaa'==='AAA'</button>
+        <button  onclick="andOp(10, 5, 15, 6)">10 > 5 && 15 > 6</button>
+        <button  onclick="andOp(5, 10, 15, 6)">5 > 10 && 15 > 6</button>
+        <button  onclick="orOp(5, 10, 15, 6)">5 > 10 || 15 > 6</button>
+        <button  onclick="orOp(5, 10, 6, 15)">5 > 10 || 6 > 15</button>
+        <button  onclick="notOp(5, 10)">!(5 > 10)</button>
+        <button  onclick="notOp(10, 5)">!(10 > 5)</button>
+
+        <script src="js/Example.js"></script>
+        <p id="Test"></p>
+
+	</body>
+</html>
