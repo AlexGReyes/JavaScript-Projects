@@ -36,7 +36,7 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com)-->
 
-This repository includes all the projects developed in The Tech Academy using Javascript.
+This repository includes all the JavaScript projects developed in The Tech Academy.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
