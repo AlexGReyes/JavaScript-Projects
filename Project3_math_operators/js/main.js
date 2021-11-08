@@ -8,7 +8,7 @@ function multiplication(){                                          // defining 
 function division(){                                                // defining a function named division
     var a = 5, b = 7;                                               // defining two variables and setting them to 5 and 7
     a /= b;                                                         // 5 divides 7
-    document.getElementById("Math").innerHTML = "5 / 7 =" + a ;     // displating the result in Math element
+    document.getElementById("Math").innerHTML = "5 / 7 =" + a ;     // displaying the result in Math element
 }
 
 function substraction(){                                            // defining a function named subtraction
@@ -32,29 +32,29 @@ function multipleOperations(){                                      // defining 
 function setModulus(){                                              // defining a function named setModulus
     var a = 5, b = 7;                                               // defining two variables and setting them to 5 and 7
     a %= b;                                                         // 5 modulus 7
-    document.getElementById("Math").innerHTML = "5 % 7 =" + a ;     // displayin the result in Math element
+    document.getElementById("Math").innerHTML = "5 % 7 =" + a ;     // displaying the result in Math element
 }
 
 
 function setUnaryOper(){                                            // defining a function named setUnaryOper
     var a = 5;                                                      // setting 5 to a varianble named a
-    document.getElementById("Math").innerHTML = -a ;                // appling unary operator
+    document.getElementById("Math").innerHTML = -a ;                // displaying the result in Math element
 }
 
 
 function increment(){                                               // defining a function named setUnaryOper
     var a = 5;                                                      // setting 5 to a varianble named a
     a++;                                                            // appling increment operator
-    document.getElementById("Math").innerHTML = "5++ = "+a ;        // displayin the result in Math element
+    document.getElementById("Math").innerHTML = "5++ = "+a ;        // displaying the result in Math element
 }
 
 function decrement(){                                               // defining a function named setUnaryOper
     var a = 5;                                                      // setting 5 yo a varianble named a
     a--;                                                            // appling increment operator
-    document.getElementById("Math").innerHTML = "5-- = "+a ;        // displayin the result in Math element
+    document.getElementById("Math").innerHTML = "5-- = "+a ;        // displaying the result in Math element
 }
 
 function getRandomNumber(){                                         // defining a function named setUnaryOper
     var a = Math.random();                                          // setting a random number to a variable
-    document.getElementById("Math").innerHTML = a ;        // displayin the result in Math element
+    document.getElementById("Math").innerHTML = a ;                 // displaying the result in Math element
 }
