@@ -58,5 +58,34 @@ function getTopping(runningTotal, text1){                                       
     document.getElementById('showText').innerHTML = text1;
     document.getElementById('totalPrice').innerHTML = '<h3>Total: <strong>$'+runningTotal+".00"+'</strong></h3>';
 
+    getVeggies(runningTotal, text1);
+}
 
+
+function getVeggies(runningTotal, text1){                                           // calculing new price with extra ingredients
+    var veggiesTotal = 0;
+    var selectedveggies = [];
+    var veggiesArray = document.getElementsByClassName('veggies');
+    for (var j=0; j<veggiesArray.length; j++){                                      // displaying all extra ingredients
+        if(veggiesArray[j].checked){
+            selectedveggies.push(veggiesArray[j].value);
+            console.log("Selected veggie item: ("+veggiesArray[j].value+')');
+            text1 = text1+'<span style="color:#41ff12">'+veggiesArray[j].value+'</span><br/>';
+        }
+    }
+
+    var veggiesCount = selectedveggies.length;
+    if(veggiesCount > 1){
+        veggiesTotal = (veggiesCount -1);
+    }else{
+        veggiesTotal = 0;
+    }
+
+    runningTotal = (runningTotal + veggiesTotal);                                   // setting the final price
+    console.log("total selected veggie items : "+veggiesCount);
+    console.log(veggiesCount+' veggies - 1 free veggies = '+'$ '+veggiesTotal+'.00');
+    console.log('veggies text1: '+text1);
+    console.log('Purchase Total: $'+runningTotal+'.00');
+    document.getElementById('showText').innerHTML = text1;
+    document.getElementById('totalPrice').innerHTML = '<h3>Total: <strong>$'+runningTotal+".00"+'</strong></h3>';
 }
