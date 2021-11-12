@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Basic AJAX Demo</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <script>
+            $(document).ready(function(){                           // when the document is loaded, permorm the next actions
+                $("html").append(                                   // creation of html elements with jQuery
+                    "<body>\
+                        <div id='container'>\
+                            <div id='inner'>\
+                                <h1>Basic jQuery</h1>\
+                                <p id='1'>Paragraph 1</p>\
+                                <p id='2'>Paragraph 2</p>\
+                                <p id='3'>Paragraph 3</p>\
+                            </div>\
+                        </div>\
+                    </body>"
+                );
+                $("#2").css({"color":"red"});                       // change font color to red
+                $("#3").click(function(){                           // hiddes h1
+                    $('h1').hide();
+                });
+
+                $("#1").mouseover(function(p){                      // on mouseover event
+                    $("#1").css({"color":"blue"});                  // changes font color to blue
+                    $( "p" ).slideUp( 1000 );                       // hide all p elements
+                });
+            });
+        </script>
+    </body>
+</html>
