@@ -43,7 +43,18 @@ This repository includes all the JavaScript projects developed in The Tech Acade
 
 <!-- PROJECTS -->
 
+## Projects
 
+### Pizza Menu
+A menu used to order pizza with a various selection of toppings ans vegetables. It then takes the input information and calculates a price for the order.
+
+### Tic-Tac-Toe Game
+
+The classic game of tic-tac-toe. 
+
+### Calculator
+
+A basic four function calculator. Users can Add, Substract, multiply and divide on a sleek web version of a calculator.
 
 <!-- CONTACT -->
 ## Contact
