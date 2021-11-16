@@ -61,7 +61,7 @@ A basic four function calculator. Users can Add, Substract, multiply and divide 
 
 Alejandro G. Reyes Aldeco - agreyesaldeco@gmail.com
 
-Project Link: [https://github.com/AlexGReyes/HTML-and-CSS-Projects](https://github.com/AlexGReyes/HTML-and-CSS-Projects)
+Project Link: [https://github.com/AlexGReyes/JavaScript-Projects](https://github.com/AlexGReyes/HTML-and-CSS-Projects)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
